@@ -32,7 +32,7 @@ export default {
 
 <style scoped>
 .tabs {
-    max-width: 400 px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -41,13 +41,14 @@ export default {
     list-style: none;
     padding: 0;
     display: flex;
+    font-size:15px;
 }
 
 .tabs__header li {
-    width: 80px;
+    width: 25%;
     text-align: center;
-    padding: 10px 20px;
-    margin-right: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
     background-color: #ddd;
     border-radius: 5px;
     cursor: pointer;
